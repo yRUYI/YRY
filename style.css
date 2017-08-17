@@ -1,0 +1,11 @@
+.wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px;
+	/*padding-top: 10px;*/
+
+}
+.wrap li{
+	list-style: none;
+}
