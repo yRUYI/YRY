@@ -1,11 +1,27 @@
+body{
+	width: auto;
+}
 .wrap{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	margin: 10px;
-	/*padding-top: 10px;*/
+	/* justify-content: center; */
 
 }
 .wrap li{
 	list-style: none;
+	padding: 5px;
+}
+.text{
+	display: flex;
+	justify-content: center;
+}
+.text button{
+	width: 40px;
+	/* border-radius: 20%; */
+	border-style: solid;
+ 	border-color: rgba(104, 186, 237, 0.62);
+	box-shadow: none;
+	color: white;
+	background-color: rgba(104, 186, 237, 0.62);
+	
 }
